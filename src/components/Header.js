@@ -1,8 +1,8 @@
-function Header({ todaysDate, name }) {
+function Header() {
   return (
     <header>
-      <h1>{name}</h1>
-      <h2>{todaysDate}</h2>
+      <h1></h1>
+      <h2></h2>
     </header>
   );
 }

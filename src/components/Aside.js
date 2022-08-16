@@ -1,12 +1,8 @@
-function Aside({ dogs }) {
+function Aside() {
   return (
     <aside>
       <h3>Roster:</h3>
-      <ol>
-        {dogs.map((dog) =>
-          dog.present ? <li key={dog.name}>{dog.name}</li> : null
-        )}
-      </ol>
+      <ol></ol>
     </aside>
   );
 }
