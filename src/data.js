@@ -1,10 +1,3 @@
-import "./App.css";
-import Aside from "./components/Aside";
-import Header from "./components/Header";
-import Main from "./components/Main";
-
-const todaysDate = new Date().toDateString();
-const dayCareName = "Bark and Bowl Doggy Day Care";
 const dogs = [
   {
     name: "Mitsy",
@@ -32,14 +25,4 @@ const dogs = [
   },
 ];
 
-function App() {
-  return (
-    <div className="App">
-      <Header todaysDate={todaysDate} name={dayCareName} />
-      <Aside dogs={dogs} />
-      <Main dogs={dogs} />
-    </div>
-  );
-}
-
-export default App;
+export default dogs;
