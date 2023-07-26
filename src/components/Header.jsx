@@ -1,10 +1,10 @@
 import React from "react";
 
-function Header() {
+function Header({ todaysDate, name }) {
   return (
     <header>
-      <h1></h1>
-      <h2></h2>
+      <h1>{name}</h1>
+      <h2>{todaysDate}</h2>
     </header>
   );
 }
